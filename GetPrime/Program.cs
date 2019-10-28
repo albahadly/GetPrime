@@ -13,6 +13,7 @@ namespace GetPrime
             Stopwatch stopwatch = new Stopwatch();
             stopwatch.Start();
 
+
             var x = FindFourPrimes(1000);
             Console.WriteLine("prime 1: {0}", x[0]);
             Console.WriteLine("prime 2: {0}", x[1]);
